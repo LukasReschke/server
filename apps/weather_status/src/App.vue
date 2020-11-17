@@ -66,6 +66,11 @@
 					@click="onFavoriteClick(f)">
 					{{ f }}
 				</ActionButton>
+				<ActionButton v-if="favorites.length > 0 && showFavorites"
+					icon="icon-star-dark"
+					@click="onClearFavoritesClick">
+					{{ t('weather_status', 'Clear favorites') }}
+				</ActionButton>
 			</Actions>
 		</div>
 	</li>
@@ -443,6 +448,11 @@ export default {
 			if (favAddress !== this.address) {
 				this.setAddress(favAddress)
 			}
+		},
+		onClearFavoritesClick() {
+			this.showFavorites = false
+			this.favorites = []
+			network.saveFavorites(this.favorites)
 		},
 	},
 }
