@@ -1,0 +1,33 @@
+{
+    "name": "friendica/json-ld",
+    "type": "library",
+    "description": "A JSON-LD Processor and API implementation in PHP.",
+    "keywords": [
+        "JSON",
+        "Linked Data",
+        "JSON-LD",
+        "RDF",
+        "Semantic Web",
+        "jsonld"
+    ],
+    "homepage": "https://git.friendi.ca/friendica/php-json-ld",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Digital Bazaar, Inc.",
+            "email": "support@digitalbazaar.com",
+            "homepage": "http://digitalbazaar.com/"
+        },
+        {
+            "name": "Friendica Team",
+            "homepage": "https://friendi.ca/"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "files": ["jsonld.php"]
+    }
+}

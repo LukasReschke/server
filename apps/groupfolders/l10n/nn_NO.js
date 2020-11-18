@@ -1,0 +1,14 @@
+OC.L10N.register(
+    "groupfolders",
+    {
+    "Are you sure you want to delete \"{folderName}\" and all files inside? This operation can not be undone" : "Er du sikker på at du vil slette \"{folderName}\" med alle filer? Dette kan ikkje angrast.",
+    "Delete \"{folderName}\"?" : "Slett \"{folderName}\"?",
+    "Folder name" : "Katalognavn",
+    "Groups" : "Grupper",
+    "Quota" : "Kvote",
+    "Group folders" : "Gruppemapper",
+    "Create" : "Lag",
+    "Delete" : "Ta bort",
+    "Share" : "Del"
+},
+"nplurals=2; plural=(n != 1);");

@@ -1,0 +1,8 @@
+{ "translations": {
+    "Help" : "Ajuda",
+    "Home" : "Domicili",
+    "Notifications" : "Notificacions",
+    "Reply" : "Respondre",
+    "Close" : "Tampar"
+},"pluralForm" :"nplurals=2; plural=(n > 1);"
+}

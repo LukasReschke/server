@@ -1,0 +1,28 @@
+OC.L10N.register(
+    "notes",
+    {
+    "Notes" : "Notes",
+    "Error" : "Fallu",
+    "New note" : "Nota nueva",
+    "Settings" : "Settings",
+    "No notes yet" : "Entá nun hai notes",
+    "All notes" : "Toles notes",
+    "Categories" : "Estayes",
+    "Loading …" : "Cargando...",
+    "Today" : "Güei",
+    "Yesterday" : "Ayeri",
+    "This week" : "Esta selmana",
+    "This month" : "Esti mes",
+    "Rename" : "Renomar",
+    "Delete note" : "Desaniciar nota",
+    "Remove from favorites" : "Remove from favorites",
+    "Add to favorites" : "Add to favorites",
+    "Details" : "Detalles",
+    "Edit" : "Editar",
+    "Preview" : "Previsualizar",
+    "Category" : "Estaya",
+    "_%n word_::_%n words_" : ["%n pallabra","%n pallabres"],
+    "Android app" : "Aplicación p'Android",
+    "iOS app" : "Aplicación pa iOS"
+},
+"nplurals=2; plural=(n != 1);");
